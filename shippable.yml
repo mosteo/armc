@@ -1,4 +1,4 @@
-language: ada
+language: c # ada
 
 branches:
     only:
