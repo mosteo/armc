@@ -10,4 +10,4 @@ build:
         image_tag: gpl.2017.slim
         pull: true
     ci:
-        - /opt/gnat/bin/grpbuild -p
+        - /opt/gnat/bin/gprbuild -p
