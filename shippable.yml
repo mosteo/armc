@@ -1,4 +1,4 @@
-language: c # ada
+language: none # ada
 
 branches:
     only:
