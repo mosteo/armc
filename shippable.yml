@@ -1,0 +1,13 @@
+language: ada
+
+branches:
+    only:
+        - master
+
+build:
+    pre_ci_boot:
+        image_name: reznik/gnat
+        image_tag: gpl.2017.slim
+        pull: true
+    ci:
+        - /opt/gnat/bin/grpbuild -p
