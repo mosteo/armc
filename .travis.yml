@@ -4,7 +4,7 @@ os: linux
 dist: xenial
 
 install:
-    - apt-get install -y gnat gprbuild
+    - sudo apt-get install -y gnat gprbuild
 
 script:
     - ls -alF
