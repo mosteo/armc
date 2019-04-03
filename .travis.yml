@@ -1,0 +1,12 @@
+language: generic # Ada
+
+# Global variables
+env:
+  global:
+
+os:
+  - linux
+
+install:
+
+script:
