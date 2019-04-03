@@ -1,12 +1,11 @@
 language: generic # Ada
 
-# Global variables
-env:
-  global:
-
-os:
-  - linux
+os: linux
+dist: xenial
 
 install:
+    - apt-get install -y gnat gprbuild
 
 script:
+    - ls -alF
+    - gprbuild -j0 -p -P armc.gpr
