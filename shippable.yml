@@ -6,8 +6,8 @@ branches:
 
 build:
     pre_ci_boot:
-        image_name: reznik/gnat
-        image_tag: gpl.2017.slim
+        image_name: alire/gnat
+        image_tag: debian-testing
         pull: true
     ci:
-        - /opt/gnat/bin/gprbuild -p
+        - gprbuild -p -j0
